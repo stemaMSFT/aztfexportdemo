@@ -1,0 +1,52 @@
+{
+	"/subscriptions/6e4d4d41-20a6-4801-8eec-c769d870e333/resourceGroups/myResourceGroup": {
+		"resource_id": "/subscriptions/6e4d4d41-20a6-4801-8eec-c769d870e333/resourceGroups/myResourceGroup",
+		"resource_type": "azurerm_resource_group",
+		"resource_name": "res-0"
+	},
+	"/subscriptions/6e4d4d41-20a6-4801-8eec-c769d870e333/resourceGroups/myResourceGroup/providers/Microsoft.Compute/sshPublicKeys/myVM_key": {
+		"resource_id": "/subscriptions/6e4d4d41-20a6-4801-8eec-c769d870e333/resourceGroups/myResourceGroup/providers/Microsoft.Compute/sshPublicKeys/myVM_key",
+		"resource_type": "azurerm_ssh_public_key",
+		"resource_name": "res-1"
+	},
+	"/subscriptions/6e4d4d41-20a6-4801-8eec-c769d870e333/resourceGroups/myResourceGroup/providers/Microsoft.Compute/virtualMachines/myVM": {
+		"resource_id": "/subscriptions/6e4d4d41-20a6-4801-8eec-c769d870e333/resourceGroups/myResourceGroup/providers/Microsoft.Compute/virtualMachines/myVM",
+		"resource_type": "azurerm_linux_virtual_machine",
+		"resource_name": "res-2"
+	},
+	"/subscriptions/6e4d4d41-20a6-4801-8eec-c769d870e333/resourceGroups/myResourceGroup/providers/Microsoft.Network/networkInterfaces/myvm669_z1": {
+		"resource_id": "/subscriptions/6e4d4d41-20a6-4801-8eec-c769d870e333/resourceGroups/myResourceGroup/providers/Microsoft.Network/networkInterfaces/myvm669_z1",
+		"resource_type": "azurerm_network_interface",
+		"resource_name": "res-3"
+	},
+	"/subscriptions/6e4d4d41-20a6-4801-8eec-c769d870e333/resourceGroups/myResourceGroup/providers/Microsoft.Network/networkInterfaces/myvm669_z1/networkSecurityGroups/L3N1YnNjcmlwdGlvbnMvNmU0ZDRkNDEtMjBhNi00ODAxLThlZWMtYzc2OWQ4NzBlMzMzL3Jlc291cmNlR3JvdXBzL215UmVzb3VyY2VHcm91cC9wcm92aWRlcnMvTWljcm9zb2Z0Lk5ldHdvcmsvbmV0d29ya1NlY3VyaXR5R3JvdXBzL215Vk0tbnNn": {
+		"resource_id": "/subscriptions/6e4d4d41-20a6-4801-8eec-c769d870e333/resourceGroups/myResourceGroup/providers/Microsoft.Network/networkInterfaces/myvm669_z1|/subscriptions/6e4d4d41-20a6-4801-8eec-c769d870e333/resourceGroups/myResourceGroup/providers/Microsoft.Network/networkSecurityGroups/myVM-nsg",
+		"resource_type": "azurerm_network_interface_security_group_association",
+		"resource_name": "res-4"
+	},
+	"/subscriptions/6e4d4d41-20a6-4801-8eec-c769d870e333/resourceGroups/myResourceGroup/providers/Microsoft.Network/networkSecurityGroups/myVM-nsg": {
+		"resource_id": "/subscriptions/6e4d4d41-20a6-4801-8eec-c769d870e333/resourceGroups/myResourceGroup/providers/Microsoft.Network/networkSecurityGroups/myVM-nsg",
+		"resource_type": "azurerm_network_security_group",
+		"resource_name": "res-5"
+	},
+	"/subscriptions/6e4d4d41-20a6-4801-8eec-c769d870e333/resourceGroups/myResourceGroup/providers/Microsoft.Network/networkSecurityGroups/myVM-nsg/securityRules/SSH": {
+		"resource_id": "/subscriptions/6e4d4d41-20a6-4801-8eec-c769d870e333/resourceGroups/myResourceGroup/providers/Microsoft.Network/networkSecurityGroups/myVM-nsg/securityRules/SSH",
+		"resource_type": "azurerm_network_security_rule",
+		"resource_name": "res-6"
+	},
+	"/subscriptions/6e4d4d41-20a6-4801-8eec-c769d870e333/resourceGroups/myResourceGroup/providers/Microsoft.Network/publicIPAddresses/myVM-ip": {
+		"resource_id": "/subscriptions/6e4d4d41-20a6-4801-8eec-c769d870e333/resourceGroups/myResourceGroup/providers/Microsoft.Network/publicIPAddresses/myVM-ip",
+		"resource_type": "azurerm_public_ip",
+		"resource_name": "res-7"
+	},
+	"/subscriptions/6e4d4d41-20a6-4801-8eec-c769d870e333/resourceGroups/myResourceGroup/providers/Microsoft.Network/virtualNetworks/myVM-vnet": {
+		"resource_id": "/subscriptions/6e4d4d41-20a6-4801-8eec-c769d870e333/resourceGroups/myResourceGroup/providers/Microsoft.Network/virtualNetworks/myVM-vnet",
+		"resource_type": "azurerm_virtual_network",
+		"resource_name": "res-8"
+	},
+	"/subscriptions/6e4d4d41-20a6-4801-8eec-c769d870e333/resourceGroups/myResourceGroup/providers/Microsoft.Network/virtualNetworks/myVM-vnet/subnets/default": {
+		"resource_id": "/subscriptions/6e4d4d41-20a6-4801-8eec-c769d870e333/resourceGroups/myResourceGroup/providers/Microsoft.Network/virtualNetworks/myVM-vnet/subnets/default",
+		"resource_type": "azurerm_subnet",
+		"resource_name": "res-9"
+	}
+}
